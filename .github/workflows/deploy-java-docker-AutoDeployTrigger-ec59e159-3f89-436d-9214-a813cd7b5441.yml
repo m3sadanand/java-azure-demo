@@ -35,7 +35,7 @@ jobs:
           registryPassword: ${{ secrets.DEPLOYJAVADOCKER_REGISTRY_PASSWORD }}
           containerAppName: deploy-java-docker
           resourceGroup: java-docker-demo
-          imageToBuild: aparnajyothiy55/deploy-java-docker:${{ github.sha }}
+          imageToBuild: aparnajyothi55/deploy-java-docker:${{ github.sha }}
           dockerfilePath: Dockerfile
 
      
